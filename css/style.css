@@ -1,36 +1,56 @@
-body
+/*This is setting all copy within the body at 14px */
+body {
   font-size: 14px;
 }
 
+
+
+/* This is for the top navigation */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* This is for a portion that is within the body */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+
+
+/* These are mainly stylizing the headers of each section */
+
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
-.example, h3 {
+.example h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
 h3 {
   font-size: 1.3em;
 }
 
+
+
+/* This class is added to each <div> within the html to set it to the following specs */
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+
+
+/* This class was added to the bottom three divs to customize solely those divs */
+.bottom-three {
+  background-color: salmon;
+}
